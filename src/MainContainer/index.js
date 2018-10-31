@@ -8,7 +8,12 @@ import React, { Component } from 'react';
 	}
 	render(){
 		return (
-			<h1>MainContainer</h1>
+			<div>
+        <h1>Pokemon</h1>
+        <h2>Name: {this.props.pokemon.name}</h2>
+        <h4>Height: {this.props.pokemon.height}</h4>
+        <h4>Weight: {this.props.pokemon.weight}</h4>
+      </div>
 		)
 	}
 }
